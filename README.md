@@ -1,6 +1,6 @@
 **MTConnect Simulator v1** : *Dime Lab, North Carolina State University*
 (windows os)
-Steps to install:
+Installation Steps:
 
 1. Install Python 3.x on computer if not present.
 2. run cmd - pip install -r reqs.txt
