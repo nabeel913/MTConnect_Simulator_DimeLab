@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+   <body>
+      <table border = 1>
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+     <p>
+
+<button class="btn btn-success" onclick=" window.open('http://localhost:5000/view','_blank')"> Main View</button>
+<button class="btn btn-success" onclick=" window.open('http://localhost:5000/stop','_blank')">1.Stop</button>
+<button class="btn btn-success" onclick=" window.open('http://localhost:5000/reset','_blank')">2.Reset</button>
+<button class="btn btn-success" onclick=" window.open('http://localhost:5000/logout','_blank')">3.Logout</button>
+
+   </body>
+</html>
+

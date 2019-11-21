@@ -1,0 +1,118 @@
+﻿<html>
+   
+   <head>
+   <meta content="en-in" http-equiv="Content-Language">
+   <style type="text/css">
+.auto-style6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+   .auto-style8 {
+	   font-family: Arial, Helvetica, sans-serif;
+	   font-size: medium;
+   }
+   .auto-style9 {
+	   color: #0000FF;
+   }
+   .auto-style10 {
+	   text-align: center;
+   }
+   .auto-style11 {
+	   font-family: Arial, Helvetica, sans-serif;
+	   color: #FFFFFF;
+	   font-size: small;
+   }
+   .auto-style12 {
+	   text-align: right;
+   }
+   .auto-style13 {
+	   font-family: Arial, Helvetica, sans-serif;
+	   color: #707070;
+	   font-size: small;
+	margin-left: 40px;
+}
+   .auto-style14 {
+	font-size: small;
+}
+.auto-style15 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.auto-style16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin-left: 40px;
+}
+.auto-style17 {
+	margin-left: 40px;
+}
+   </style>
+   </head>
+
+   <body>
+      <form action = "http://localhost:5000/home" method = "POST">
+      
+          <div class="auto-style10">
+			  <div class="auto-style10" style="height: 89px">
+				  <div id="layer1" class="auto-style12" style="position: absolute; width: 1183px; height: 100px; z-index: 1; left: 10px; top: 15px">
+					  <span class="auto-style11">welcome to control panel<br>
+					  <button onclick="location.href='http://localhost:5000/logout'" type="button">
+     Logout</button></span></div>
+				  <img height="51" src="../static/banner.png" width="1200"><br>
+				  <br><br><br><br><br></div>
+      
+          <table style="width: 66%" align="center" bgcolor="#F3F3ED">
+			  <tr>
+				  <td class="auto-style13" colspan="2">
+				  <p class="auto-style17">&nbsp;</p>
+				  <p class="auto-style17"><span class="auto-style6">Please enter the parameters below 
+				  for setting up the virtual environment </span><strong><br><br>
+				  </strong></p>
+				  </td>
+			  </tr>
+			  <tr>
+				  <td class="auto-style16" style="width: 398px">
+				  <p class="auto-style17">Organizations&nbsp;
+				  <span class="auto-style9"><em>e.g. 40</em></span></p>
+				  </td>
+				  <td> 
+		  <input type = "text" name = "org" class="auto-style15" style="width: 98px" /></td>
+			  </tr>
+			  <tr>
+				  <td class="auto-style16" style="width: 398px">
+				  <p class="auto-style17">Lower Limt of 
+				  Machines&nbsp; <span class="auto-style9"><em>e.g. 1</em></span> 
+				  </p>
+				  </td>
+				  <td> 
+		 <input type = "text" name = "low" class="auto-style15" style="width: 98px" /></td>
+			  </tr>
+			  <tr>
+				  <td class="auto-style16" style="width: 398px">
+				  <p class="auto-style17">Higher Limit of 
+				  Machines <span class="auto-style9"><em>e.g. 10</em></span> </p>
+				  </td>
+				  <td> 
+		 <input type = "text" name = "high" class="auto-style15" style="width: 98px" /></td>
+			  </tr>
+			  <tr>
+				  <td class="auto-style16" style="width: 398px">
+				  <p class="auto-style17">Random Seeding 
+				  Phrase <span class="auto-style9"><em>e.g. Dime Lab</em></span> 
+				  </p>
+				  </td>
+				  <td> 
+		 <input type ="text" name = "seed" style="width: 214px" class="auto-style14" /></td>
+			  </tr>
+			  <tr>
+				  <td class="auto-style8" style="width: 398px">&nbsp;</td>
+				  <td> 
+		 		 <br>
+		   <input type = "submit" value = "Simulate" style="width: 140px" /><br>
+				  <br></td>
+			  </tr>
+		  </table>
+		      <br></p>
+      	</div>
+      </form>
+   </body>
+</html>

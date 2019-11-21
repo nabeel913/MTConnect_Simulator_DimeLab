@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_136b38b69e8a441099ac7c1936c9e66c {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_136b38b69e8a441099ac7c1936c9e66c" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_136b38b69e8a441099ac7c1936c9e66c = L.map(
+        'map_136b38b69e8a441099ac7c1936c9e66c', {
+        center: [39.0902, -98.7129],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_2026f0f02f7b4c0e8c95dafeca415546 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_136b38b69e8a441099ac7c1936c9e66c);
+    
+        var marker_ed3c7b7aeb794e289d8ab52407c81e0b = L.marker(
+            [39.3454673, -84.56031870000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_136b38b69e8a441099ac7c1936c9e66c);
+        
+    
+
+                var icon_d62123f2cc2245e3bdb3266877141c11 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed3c7b7aeb794e289d8ab52407c81e0b.setIcon(icon_d62123f2cc2245e3bdb3266877141c11);
+            
+    
+            var popup_11d1c86c35794ec3a8470fbc6f7a056c = L.popup({maxWidth: '2650'
+            
+            });
+
+            
+                var html_4c019ec1965c47529fa40042a5bab927 = $(`<div id="html_4c019ec1965c47529fa40042a5bab927" style="width: 300.0px; height: 100.0%;"><h4><span style="color: #3366ff;">Org 1 - port : 19000</span></h4> <table style="height: 30px;" width="284"> <tbody> <tr> <td style="width: 169px;"> <h4>MTConnect :</h4> </td> <td style="width: 99px;"><h6><a href="http://localhost:19000/current" target="_blank" rel="noopener">Current |</a><a href="http://localhost:19000/probe" target="_blank" rel="noopener"> Probe</h6></a></td> </tr> <tr> <td style="width: 169px;"> <h4>Total Machines: </td> <td style="width: 99px;"><b>2</b></td> </tr> <tr> <td style="width: 169px;"> <h4>Capacity Utilization: </td> <td style="width: 99px;"><b>0%</h4></b></td> </tr> </tbody> </table></div>`)[0];
+                popup_11d1c86c35794ec3a8470fbc6f7a056c.setContent(html_4c019ec1965c47529fa40042a5bab927);
+            
+
+            marker_ed3c7b7aeb794e289d8ab52407c81e0b.bindPopup(popup_11d1c86c35794ec3a8470fbc6f7a056c)
+            ;
+
+            
+        
+    
+        var marker_d5497cb11a29455c9553edf6eee97e09 = L.marker(
+            [33.7475203, -116.9719684],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_136b38b69e8a441099ac7c1936c9e66c);
+        
+    
+
+                var icon_88659086d8e24141a44b8d81e4f95641 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5497cb11a29455c9553edf6eee97e09.setIcon(icon_88659086d8e24141a44b8d81e4f95641);
+            
+    
+            var popup_7b44afbb1c3e4f6b83b68f47bc13c8fa = L.popup({maxWidth: '2650'
+            
+            });
+
+            
+                var html_984578f212914669b4d2f6dbdc258b60 = $(`<div id="html_984578f212914669b4d2f6dbdc258b60" style="width: 300.0px; height: 100.0%;"><h4><span style="color: #3366ff;">Org 2 - port : 19600</span></h4> <table style="height: 30px;" width="284"> <tbody> <tr> <td style="width: 169px;"> <h4>MTConnect :</h4> </td> <td style="width: 99px;"><h6><a href="http://localhost:19600/current" target="_blank" rel="noopener">Current |</a><a href="http://localhost:19600/probe" target="_blank" rel="noopener"> Probe</h6></a></td> </tr> <tr> <td style="width: 169px;"> <h4>Total Machines: </td> <td style="width: 99px;"><b>7</b></td> </tr> <tr> <td style="width: 169px;"> <h4>Capacity Utilization: </td> <td style="width: 99px;"><b>56%</h4></b></td> </tr> </tbody> </table></div>`)[0];
+                popup_7b44afbb1c3e4f6b83b68f47bc13c8fa.setContent(html_984578f212914669b4d2f6dbdc258b60);
+            
+
+            marker_d5497cb11a29455c9553edf6eee97e09.bindPopup(popup_7b44afbb1c3e4f6b83b68f47bc13c8fa)
+            ;
+
+            
+        
+    
+        var marker_efd84fdd766d4bb18823446b912d0c57 = L.marker(
+            [41.5931049, -81.5267873],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_136b38b69e8a441099ac7c1936c9e66c);
+        
+    
+
+                var icon_1e5db3520e624915ae9415321e64dc6f = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_efd84fdd766d4bb18823446b912d0c57.setIcon(icon_1e5db3520e624915ae9415321e64dc6f);
+            
+    
+            var popup_50c0332ead6e4c6eaff0a56ee75556cc = L.popup({maxWidth: '2650'
+            
+            });
+
+            
+                var html_0a6ae3b4ebc94b4786ef1aa5801e0a57 = $(`<div id="html_0a6ae3b4ebc94b4786ef1aa5801e0a57" style="width: 300.0px; height: 100.0%;"><h4><span style="color: #3366ff;">Org 3 - port : 12800</span></h4> <table style="height: 30px;" width="284"> <tbody> <tr> <td style="width: 169px;"> <h4>MTConnect :</h4> </td> <td style="width: 99px;"><h6><a href="http://localhost:12800/current" target="_blank" rel="noopener">Current |</a><a href="http://localhost:12800/probe" target="_blank" rel="noopener"> Probe</h6></a></td> </tr> <tr> <td style="width: 169px;"> <h4>Total Machines: </td> <td style="width: 99px;"><b>1</b></td> </tr> <tr> <td style="width: 169px;"> <h4>Capacity Utilization: </td> <td style="width: 99px;"><b>100%</h4></b></td> </tr> </tbody> </table></div>`)[0];
+                popup_50c0332ead6e4c6eaff0a56ee75556cc.setContent(html_0a6ae3b4ebc94b4786ef1aa5801e0a57);
+            
+
+            marker_efd84fdd766d4bb18823446b912d0c57.bindPopup(popup_50c0332ead6e4c6eaff0a56ee75556cc)
+            ;
+
+            
+        
+</script>

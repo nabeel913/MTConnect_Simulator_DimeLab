@@ -1,0 +1,4 @@
+,latitude,longitude,city,state,population,names,machines,temperature,atmosphere,CapacityUtil,agentPorts
+864,39.345467299999996,-84.56031870000001,Fairfield,Ohio,42635,Org 1,2,11,Rain,0,19000
+394,33.7475203,-116.97196840000001,Hemet,California,81750,Org 2,7,1,Dark,56,19600
+776,41.5931049,-81.5267873,Euclid,Ohio,48139,Org 3,1,16,Hot,100,12800
