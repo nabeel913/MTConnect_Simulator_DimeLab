@@ -1,4 +1,4 @@
-**MTConnect Simulator** : *Dime Lab, North Carolina State University*
+**MTConnect Simulator v1** : *Dime Lab, North Carolina State University*
 (windows os)
 Steps to install:
 
